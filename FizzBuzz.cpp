@@ -1,11 +1,18 @@
 // FizzBuzz.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include<iostream>
+#include<vector>
+using namespace std;
 
 int main()
-{
-    std::cout << "Hello World!\n";
+{	
+
+	for (int numbers = 0; numbers < 101; numbers++) 
+	{
+		cout << numbers << "\n";
+	}
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
